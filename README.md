@@ -31,9 +31,9 @@ This project is a modern Axure template designed for creating beautiful prototyp
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/AhmedMohamed50/axit-template.git
+   git clone https://github.com/AhmedMohamed50/AXIT.git
    
 3. Navigate to the project directory:
-  cd axit-template
+  cd AXIT
 
 3. Open index.html in your web browser.
