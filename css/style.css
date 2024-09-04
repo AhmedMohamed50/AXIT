@@ -1,0 +1,634 @@
+/* #F5F5F5 for background */
+/* #FF8B38 for hr and anchor tags */
+/*  color: #BFBFC1; for paragraph text */
+
+/* Reset style */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Global style */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bg-gray:hover {
+    color: #FF8B38;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF8B38;
+    color: white;
+}
+
+a:hover{
+    color: white;
+    background-color: black !important;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+section.main {
+    background-color: black;
+}
+
+nav {
+    height: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+span.text {
+    color: #FF8B38;
+}
+
+.margin-top {
+    margin-top: 7%;
+}
+
+.margin-bottom {
+    margin-bottom: 100px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.hr {
+    width: 50px;
+    color: #FF8B38;
+}
+
+/* for social media icons */
+.bg-gray {
+    color: #BFBFC1;
+}
+
+.clear {
+    clear: both;
+}
+
+.top-bottom-margin {
+    margin: 6% auto;
+}
+
+.bg-orange {
+    width: 70px;
+    margin: 5% 0px;
+    border: 1px solid #FF8B38;
+}
+
+.pricing-hr {
+    width: 100%;
+    border: 2px solid #FF8B38;
+}
+
+.bg-white {
+    background-color: rgba(244, 244, 244, 0.823);
+    font-size: 13px;
+}
+
+.triangle {
+    position: absolute;
+    left: 6%;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #F5F5F5;
+}
+
+/* Custom Style */
+
+/* NavBar */
+section nav h1 {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+section nav ul {
+    width: 43%;
+    float: right;
+}
+
+section nav ul li {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
+
+/* Free Trial Section */
+section.main section.content {
+    background: url(../images/background-img1.avif);
+    height: 550px;
+    background-size: cover;
+    width: 100%;
+}
+
+section.main section.content div.container div.description {
+    width: 40%;
+    color: white;
+    display: inline-block;
+    /* height: 500px; */
+    padding: 10% 0px 7% 0;
+}
+
+section.main section.content div.container div.description h2 {
+    font-size: 60px;
+}
+
+section.main section.content div.container div.description h3 {
+    margin-top: 2px;
+    font-size: 32px;
+}
+
+section.main section.content div.container div.description p {
+    color: #ffffff9c;
+}
+
+section.main section.content div.container div.description a {
+    border: 2px solid white;
+    padding: 8px 25px;
+    display: inline-block;
+}
+
+section.main section.content div.container form.free-trial {
+    /* display: inline-block; */
+    width: 30%;
+    float: right;
+    margin: 13% 8% 7% 0;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+section.main section.content div.container form.free-trial h4 {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+section.main section.content div.container form.free-trial input.form-input {
+    width: 80%;
+    padding: 6px;
+    border: 1px solid white;
+    margin: 5% 10%;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.overlay{
+    background-color: #0000006e;
+    height: 100%;
+}
+
+.get-start-btn {
+    width: 100%;
+    background-color: #FF9B51;
+    padding: 10px;
+    border: 1px solid #FF9B51;
+}
+
+/* Social media section */
+/* .social-section{
+    background-color: #ccc;
+    padding: 3% 0;
+}
+
+
+.social-details{
+    display: inline-block;
+    width: 40%;
+}
+.social-links{
+    float: right;
+    width: 40%;
+} */
+
+section.main section.social-media-icons {
+    background-color: white;
+    padding: 20px 0px;
+}
+
+section.main section.social-media-icons div.description {
+    width: 40%;
+    float: left;
+    /* display: inline-block; */
+}
+
+section.main section.social-media-icons div.icons {
+    display: inline-block;
+    /* float: right; */
+    margin-top: 1%;
+    width: 55%;
+}
+
+section.main section.social-media-icons div.icons a {
+    /* color: gray;  when i change the margin top the icon take color black from class bg-gray and it take color white from the parent anchor tag before that */
+    font-size: 40px;
+    margin-left: 7%;
+}
+
+/* transiting tabs section*/
+
+section.main section.transiting-tabs {
+    background-color: #F5F5F5;
+    padding: 10% 0px;
+}
+
+section.main section.transiting-tabs div.tabs {
+    display: inline-block;
+    width: 12%;
+}
+
+section.main section.transiting-tabs div.tabs ul {
+    display: inline-block;
+    width: 100%;
+}
+
+section.main section.transiting-tabs div.tabs ul li {
+    width: 100%;
+    padding: 40px 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 0.6px;
+}
+
+section.main section.transiting-tabs div.tabs ul li.first {
+    background-color: #FF8B38;
+}
+
+section.main section.transiting-tabs div.description {
+    display: inline-block;
+    width: 40%;
+    margin-left: 10%;
+    vertical-align: top;
+}
+
+section.main section.transiting-tabs div.description p.first {
+    margin-top: 10%;
+    color: #ccc;
+}
+
+section.main section.transiting-tabs div.description p.second {
+    margin-top: 8%;
+    color: #ccc;
+}
+
+section.main section.transiting-tabs div.description a {
+    margin-top: 8%;
+    display: inline-block;
+    background-color: #FF8B38;
+    padding: 10px 20px;
+    border: 1px solid #FF8B38;
+    border-radius: 3px;
+}
+
+section.main section.transiting-tabs .reflection-img {
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+    width: 35%;
+    margin-left: 2%;
+    vertical-align: top;
+}
+
+/* sub list Section */
+
+section.main section.sub-list-section {
+    background-color: white;
+    padding: 10% 0px;
+}
+
+section.main section.sub-list-section img.sub-list-img {
+    width: 40%;
+    box-shadow: 0 0 20px 1px gray;
+    vertical-align: top;
+}
+
+section.main section.sub-list-section div.sub-list-description {
+    display: inline-block;
+    width: 45%;
+    margin-left: 15%;
+}
+
+section.main section.sub-list-section div.sub-list-description hr {
+    width: 70px;
+    margin: 5% 0px;
+    border: 1px solid #FF8B38;
+}
+
+section.main section.sub-list-section div.sub-list-description div.upload a, div.download a {
+    display: inline-block;
+    color: #FF8B38;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+section.main section.sub-list-section div.sub-list-description div.upload div.upload-description, div.download div.download-description {
+    display: inline-block;
+    width: 85%;
+    margin-left: 5%;
+}
+
+/* standard picture section */       /* standard picture section */       /* standard picture section */
+
+section.main section.standard-picture-section {
+    background-color: #F5F5F5;
+    padding-bottom: 7%;
+}
+
+section.main section.standard-picture-section div.standard-picture-description {
+    display: inline-block;
+    width: 40%;
+    margin-top: 10%;
+    vertical-align: top;
+}
+
+section.main section.standard-picture-section div.standard-picture-description hr {
+    width: 70px;
+    margin: 5% 0px;
+    border: 1px solid #FF8B38;
+}
+
+section.main section.standard-picture-section img.standard-picture-img {
+    width: 40%;
+    height: 250px;
+    box-shadow: 0 0 20px 1px gray;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+section.main section.standard-picture-section div.standard-picture-description p.second {
+    margin-top: 4%;
+}
+
+/* Section Why Awesome */
+
+section.main section.why-awesome {
+    background-color: white;
+    padding: 7% 0px 3% 0;
+}
+
+section.main section.why-awesome div.why-awesome-description {
+    text-align: center;
+}
+
+section.main section.why-awesome div.why-awesome-description hr {
+    width: 70px;
+    margin: 3% auto;
+    border: 1px solid #FF8B38;
+}
+
+section.main section.why-awesome div.icon-lists {
+    width: 30%;
+    display: inline-block;
+    margin: 5% 0px;
+    text-align: center;
+}
+
+section.main section.why-awesome div.middle-icon-list {
+    margin: 0px 4%;
+}
+section.main section.why-awesome div.icon-lists a .icon-style {
+    color: #FF8B38;
+    border: 2px solid #FF8B38;
+    padding: 15px;
+    font-size: 22px;
+    border-radius: 50%;
+}
+
+/* PRICING OPTIONS */      /* PRICING OPTIONS */      /* PRICING OPTIONS */
+
+section.main section.pricing-options {
+    background-color: #F5F5F5;
+    padding: 7% 0px 3% 0;
+}
+
+section.main section.pricing-options div.pricing-options-description {
+    text-align: center;
+}
+
+section.main section.pricing-options div.pricing-options-description hr {
+    width: 70px;
+    margin: 2% auto;
+    border: 1px solid #FF8B38;
+}
+
+section.main section.pricing-options div.pricing-options-lists {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+section.main section.pricing-options div.pricing-options-lists div.bg-white {
+    background-color: white;
+    color: #BFBFC1;
+}
+
+section.main section.pricing-options div.pricing-options-lists div.bg-white ul li.border-bottom {
+    border-bottom: 1px solid #F5F5F5;
+    /* border-bottom: 1px solid rgba(204, 204, 204, 0.593); */
+}
+
+section.main section.pricing-options div.pricing-options-lists div.bg-white ul li:last-child {
+    border-bottom: none;
+}
+
+section.main section.pricing-options div.pricing-options-lists div.bg-black {
+    background-color: black;
+    color: white;
+}
+
+section.main section.pricing-options div.pricing-options-lists div.bg-black span {
+    font-size: 75px;
+}
+
+section.main section.pricing-options div.middle-pricing-list {
+    margin: 3% 12%;
+}
+
+section.main section.pricing-options div.middle-pricing-list h5 {
+    width: 100%;
+    background-color: #FF8B38;
+    padding: 10px;
+}
+
+/* Customer feedback */
+section.main section.customer-feedback {
+    background-color: white;
+    padding: 7% 0px 0 0;
+}
+
+section.main section.customer-feedback div.description {
+    text-align: center;
+}
+
+section.main section.customer-feedback div.description hr {
+    width: 70px;
+    margin: 2% auto;
+    border: 1px solid #FF8B38;
+}
+section.main section.customer-feedback div.description p {
+    color: #BFBFC1;
+}
+
+section.main section.customer-feedback div.customers {
+    margin: 5% 18px;
+    position: relative;
+    display: inline-block;
+    width: 30%;
+}
+
+section.main section.customer-feedback div.middle-customer {
+    margin: 0 2%;
+}
+
+section.main section.customer-feedback div.customers p.text {
+    width: 80%;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    color: #B8B8BA;
+    padding: 5% 2%;
+}
+
+section.main section.customer-feedback div.customers div.customer-info img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin: 6% 1%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+section.main section.customer-feedback div.customers div.customer-info div.customer-name {
+    display: inline-block;
+    margin: 9% 23%;
+}
+
+/* Axure Design Section */
+
+section.main section.axure-design {
+    background: url(../images/background-img1.avif);
+    text-align: center;
+}
+
+section.main section.axure-design div.description {
+    padding: 3%;
+    color: white;
+}
+
+section.main section.axure-design div.description hr {
+    width: 50px;
+    margin: 2% auto;
+}
+
+section.main section.axure-design div.description p {
+    /* opacity: 0.7; */
+    color: #BFBFC1;
+}
+
+section.main section.axure-design div.description a {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid white;
+    margin-top: 2%;
+}
+
+/* Contact US Section */
+section.main section.contact-us {
+    background-color: white;
+    padding: 7% 0px 0 0;
+}
+
+section.main section.contact-us div.contact-us-info {
+    text-align: center;
+}
+
+section.main section.contact-us div.contact-us-info p {
+    color: #BFBFC1;
+}
+
+section.main section.contact-us div.contact-us-info hr {
+    width: 70px;
+    margin: 2% auto;
+    border: 1px solid orange;
+}
+
+section.main section.contact-us form {
+    margin: 5% 0;
+}
+
+section.main section.contact-us form div.left input::placeholder, div.right textarea::placeholder {
+    color: #BFBFC1;
+}
+
+section.main section.contact-us form div.left {
+    float: left;
+    width: 50%;
+}
+
+section.main section.contact-us form div.right {
+    float: right;
+    width: 50%;
+}
+
+section.main section.contact-us form div.left input {
+    width: 90%;
+    padding: 10px;
+    margin: 1%;
+    border: 1px solid white;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+section.main section.contact-us form div.right textarea{
+    width: 90%;
+    padding: 10px 10px 95px 10px;
+    margin: 1%;
+    border: 1px solid white;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+section.main section.contact-us form a {
+    background-color: #FF9B51;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 2% 44%;
+    border-radius: 3px;
+}
+
+/* Footer Section */
+
+section.main section.footer {
+    background-color: black;
+    padding: 1% 0;
+    text-align: center;
+}
+
+section.main section.footer div.icons a {
+    margin: 0 1%;
+    font-size: 20px;
+}   
+
+section.main section.footer div.copyright {
+    color: rgba(239, 239, 239, 0.608);
+    margin-top: 10px;
+}
