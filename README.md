@@ -1,5 +1,4 @@
 # AXIT
-# AXIT Template - Day 3 Task
 
 This project is a modern Axure template designed for creating beautiful prototypes. It showcases various sections such as a navbar, content area, social media icons, pricing options, customer feedback, and more. The template is built using HTML, CSS, and Font Awesome for icons.
 
